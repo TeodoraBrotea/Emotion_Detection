@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro_page">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F1DE" />
+
+    <ImageView
+        android:id="@+id/landing_page"
+        android:layout_width="382dp"
+        android:layout_height="421dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="150dp"
+        android:src="@mipmap/emotions_foreground" />
+
+    <Button
+        android:id="@+id/btnDetectFaces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_weight="1"
+        android:text="Detect Emotion"
+        app:backgroundTint="#E07A5F" />
+
+    <Button
+        android:id="@+id/btnAppInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="About App"
+        android:layout_marginTop="680dp"
+        app:backgroundTint="#E07A5F" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/coming_soon"
+        android:text="Listen how you feel!"
+        android:textAlignment="center"
+        android:textColor="#3d405b"
+        android:textSize="40dp"
+        />
+
+
+</RelativeLayout>

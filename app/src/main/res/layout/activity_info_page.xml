@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4F1DE" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/coming_soon"
+        android:text="Listen how you feel!"
+        android:textAlignment="center"
+        android:textColor="#3d405b"
+        android:textSize="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The purpose of this app is to detect human emotions and offer a suitable Spotify playlist according to that emotion. Emotion detection is realized using an API from Microsoft Azure Cognitive Services."
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/coming_soon"
+        android:textColor="#3d405b"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to use: take a picture and the app will return the emotion detection result. Based on the result, the app will suggest a Spotify playlist which has the purpose to lift your mood up or maintain the good spirit. You can either choose to listen the playlist or cancel and retake a picture to detect another emotion."
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/coming_soon"
+        android:textColor="#3d405b"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A cool feature is that the app can detect your emotion even though you wear a mask on. "
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/coming_soon"
+        android:textColor="#3d405b"
+        />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try all of them and have fun!"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginEnd="16dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/coming_soon"
+        android:textColor="#3d405b"
+        />
+
+</RelativeLayout>
